@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: absolute;
+    right:20px;
+}
+.nav-bar{
+    display:flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.nav-bar a{
+    margin:0px 5px;
+    text-decoration: none;
+    color:black;
+    &:hover{
+        border-bottom: 1px solid black;
+    }
+}
+.image{
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+  
+}
+.apps{
+    background-color:white;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 50px;
+
+    &:hover{
+        background-color: rgba(231, 229, 229, 0.856);
+        padding:10px;
+        border-radius: 50px;
+    }
+}
+
+/* searcxh */
+.main-sec{
+    max-width: 800px;
+    margin: auto;
+    
+}
+.goxjub{
+    width:30px;
+    height:30px;
+    
+}
+.Gdd5U{
+    width:30px;
+    height:30px;
+   
+}
+.google-container img{
+    margin-bottom: 30px;
+}
+.container{
+    position: relative;
+    top:300px;
+ text-align: center;
+}
+.google-container{
+ 
+    padding: 0px 50px;
+    text-align: center;
+}
+.search{
+    border:1px solid rgb(209, 208, 208);
+    width:80%;
+   margin: auto;
+   display:flex;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 50px;
+  column-gap: 20px;
+  align-items: center;
+  
+}
+.search input[type=search]{
+    width:100%;
+    border: none;
+    outline: none;
+    padding:0px 20px;
+}
+.search span{
+    font-size: 25px;
+    color:rgb(92, 89, 89);
+}
+
+.buttons {
+    margin: 20px 0px;
+    /* height:50px; */
+}
+
+.button {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    
+    padding: 8px 15px;
+    box-sizing: border-box; /* Add this line */
+    &:hover {
+        border: 1px solid rgb(212, 211, 211);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.languages{
+    max-width: 700px;
+    margin: auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+.languages a{
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(32, 32, 214);
+    border-bottom: none;
+}
+.languages p{
+    font-size: 16px;
+}
+.languages a:hover{
+    border-bottom: 1px solid rgb(32, 32, 214);
+    font-size: 13px;
+   
+    text-decoration: none;
+    color:rgb(32, 32, 214);
+
+    
+
+}
